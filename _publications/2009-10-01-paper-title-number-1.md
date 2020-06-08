@@ -1,7 +1,7 @@
 ---
-title: "Paper Title Number 1"
+title: "Google Scholar"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /https://scholar.google.com/citations?user=A2OzgMUAAAAJ&hl=en&authuser=1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2009-10-01
 venue: 'Journal 1'
