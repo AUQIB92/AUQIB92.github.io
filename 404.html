@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moved — Dr. Lone's Academic Engine</title>
+<meta name="robots" content="noindex">
+<script>
+  // Forward any old /claude-code-my-workflow/... link to the same path on the new site.
+  (function () {
+    var OLD = "/claude-code-my-workflow", NEW = "/Dr-Lones-Academic-Engine";
+    var p = location.pathname;
+    var rest = p.indexOf(OLD) === 0 ? p.slice(OLD.length) : "/";
+    location.replace(NEW + (rest || "/") + location.search + location.hash);
+  })();
+</script>
+<style>
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 36rem; margin: 15vh auto; padding: 0 16px; color: #1a1a1a; background: #fff; }
+  a { color: #0b57d0; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #121212; } a { color: #8ab4f8; } }
+</style>
+</head>
+<body>
+<h1>This site has moved</h1>
+<p>Dr. Lone's Academic Engine now lives at
+<a href="https://auqib92.github.io/Dr-Lones-Academic-Engine/">auqib92.github.io/Dr-Lones-Academic-Engine</a>.
+You should be forwarded automatically.</p>
+</body>
+</html>
